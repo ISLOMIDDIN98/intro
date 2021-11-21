@@ -35,9 +35,9 @@ height: auto;
 
 .container{
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1440px;
+  padding-left: 144px;
+  padding-right: 144px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -47,4 +47,57 @@ height: auto;
 
 .main-content{
   flex-grow: 1;
+}
+
+.course-name{
+width: 148px;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #df1212;
+}
+.site-heading {
+  padding-top: 80px;
+width: 570px;
+height: 640px;
+}
+.site-heading-section-div {
+  width: 570px;
+  height: 560px;
+  background-image: url(../img/Rectangle.svg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position: center;
+}
+.course-name {
+}
+.site-heading-header {
+  width: 389px;
+  font-weight: bold;
+font-size: 36px;
+line-height: 46px;
+color: #FFFFFF;
+}
+.site-heading-text {
+  width: 347px;
+  font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.site-heading-footer {
+width: 580px;
+height: 80px;
+background-color: #4DC490;
+border-radius: 0px 0px 20px 20px;
+}
+
+.site-heading-footer-text{
+width: 281px;
+font-weight: bold;
+font-size: 19px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
 }
