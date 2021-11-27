@@ -1,3 +1,7 @@
+:root{
+
+}
+
 html{
   box-sizing:border-box;
   height: 100%;
@@ -13,23 +17,23 @@ html{
 
 
 body{
-display: flex;
-flex-direction: column;
-height: 100%;
-padding: 0;
-margin: 0;
-font-family:"arial", serif;
-font-size: 16px;
-line-height: 1.5;
-background-color: #fff;
-color: #000;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family:"arial", serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #E7E7E7;;
+  color: #000;
 
 }
 
 
 img{
-max-width: 100%;
-height: auto;
+  max-width: 100%;
+  height: auto;
 
 }
 
@@ -48,56 +52,186 @@ height: auto;
 .main-content{
   flex-grow: 1;
 }
+.course-name-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 178px;
+  padding: 5px 15px;
+  opacity: 0.8;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 41px;
+  margin-bottom: 65px;
+}
 
 .course-name{
-width: 148px;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-text-align: center;
-color: #df1212;
+
+  width: 148px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+
 }
 .site-heading {
+  display: flex;
   padding-top: 80px;
-width: 570px;
-height: 640px;
+  width: 570px;
+  height: 640px;
 }
 .site-heading-section-div {
   width: 570px;
   height: 560px;
+  padding-top: 60px;
+  padding-left: 60px;
+  border-radius:20px 20px 0px 0px;
   background-image: url(../img/Rectangle.svg);
   background-repeat: no-repeat;
   background-size: cover ;
   background-position: center;
 }
-.course-name {
-}
+
 .site-heading-header {
   width: 389px;
   font-weight: bold;
-font-size: 36px;
-line-height: 46px;
-color: #FFFFFF;
+  font-size: 36px;
+  line-height: 46px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 25px;
 }
 .site-heading-text {
   width: 347px;
   font-weight: normal;
-font-size: 16px;
-line-height: 26px;
-color: #FFFFFF;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin: 0;
 }
 .site-heading-footer {
-width: 580px;
-height: 80px;
-background-color: #4DC490;
-border-radius: 0px 0px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 570px;
+  height: 80px;
+  background-color: #4DC490;
+  border-radius: 0px 0px 20px 20px;
+
 }
 
 .site-heading-footer-text{
-width: 281px;
-font-weight: bold;
-font-size: 19px;
-line-height: 23px;
-text-align: center;
-color: #FFFFFF;
+  width: 281px;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0px;
+}
+
+/* form */
+
+.form-section{
+  width: 570px;
+    min-height: 640px;
+  margin-left: 12px;
+  padding-left: 60px;
+  background-color: #fff;
+border-radius: 20px;
+}
+.form-section-header {
+  width: 428px;
+  margin: 0;
+margin-top: 55px;
+margin-right: 82px;
+margin-bottom: 79px;
+font-weight: 600;
+font-size: 32px;
+line-height: 42px;
+color: #000;
+}
+.form-div {
+}
+.form {
+  margin-right: 60px;
+}
+
+.form-input-wrapper:not(:last-child){
+margin-bottom: 35px;
+}
+.form-input-wrapper{
+
+
+}
+.form-input {
+  width: 450px;
+  font-weight: 600;
+  font-size: 18px;
+line-height: 22px;
+  color: #000;
+  border:0;
+  padding: 0;
+ padding-bottom: 11px;
+border-bottom: 1px solid #000;
+}
+
+.form-input::placeholder{
+  width: 450px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  border:0;
+  padding: 0;
+ padding-bottom: 11px;
+border-bottom: 1px solid #555;
+}
+
+/* .form-input:hover{
+  font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #000;
+} */
+.form-input:focus{
+  outline: 3px dashed #655AF2;
+  outline-offset: 2px;
+}
+
+.form-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 149px;
+   /* width: 450px; */
+  /* height: 59px; */
+    background: #655AF2;
+  border-radius: 10px;
+}
+
+.button-link{
+  width: 152px;
+  font-weight: 600;
+  line-height: 19px;
+text-decoration: none;
+  color: #FFFFFF;
+}
+.form-section-footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  color: #555;
+
+}
+
+.underlined{
+  color: red;
 }
