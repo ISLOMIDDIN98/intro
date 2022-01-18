@@ -1,5 +1,5 @@
 :root{
-  --budy-bg: #E7E7E7;
+  --budy-bg: #F1F4FF;
 --green: #4DC490;
 --purple:#655AF2;
 --red:#F03535;
@@ -25,7 +25,7 @@ body{
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family:"arial", serif;
+  font-family:"inter","arial", serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: var(--budy-bg);
@@ -48,8 +48,8 @@ img{
 .container{
   width: 100%;
   max-width: 1440px;
-  padding-left: 144px;
-  padding-right: 144px;
+  padding-left: 150px;
+  padding-right: 150px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -61,9 +61,6 @@ img{
   flex-grow: 1;
 }
 .course-name-wrapper{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   width: 178px;
   padding: 5px 15px;
   opacity: 0.8;
@@ -87,7 +84,7 @@ img{
 }
 .site-heading {
   display: flex;
-padding-top: 80px;
+padding-top: 50px;
 
 }
 .site-heading-section-div {
@@ -132,6 +129,7 @@ padding-top: 80px;
 }
 
 .site-heading-footer-text{
+  text-decoration: none;
   width: 281px;
   font-size: 19px;
   line-height: 23px;
@@ -161,8 +159,7 @@ padding-top: 80px;
   line-height: 42px;
   color: #000;
 }
-.form-div {
-}
+
 .form {
   margin-right: 60px;
 }
@@ -170,10 +167,7 @@ padding-top: 80px;
 .form-input-wrapper:not(:last-child){
   margin-bottom: 35px;
 }
-.form-input-wrapper{
 
-
-}
 .form-input {
   width: 450px;
   font-weight: 600;
@@ -186,6 +180,8 @@ padding-top: 80px;
   border-bottom: 1px solid #000;
 }
 
+
+
 .form-input::placeholder{
   width: 450px;
   font-weight: normal;
@@ -196,14 +192,6 @@ padding-top: 80px;
   padding-bottom: 11px;
   border-bottom: 1px solid #555;
 }
-
-/* .form-input:hover{
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: #000;
-} */
-
 
 .form-button{
   display: flex;
@@ -218,6 +206,11 @@ padding-top: 80px;
   /* height: 59px; */
   background: var(--purple);
   border-radius: 10px;
+  border:0;
+}
+
+.form-button:hover{
+  background-color:#3A2BF8;
 }
 
 
@@ -234,5 +227,6 @@ padding-top: 80px;
 }
 
 .underlined{
+  margin-left: 5px;
   color: var(--red);
 }
